@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://spring.io/guides/gs-producing-web-service">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:addNumbersRequest>
+            <gs:inputOne>10</gs:inputOne>
+            <gs:inputTwo>20</gs:inputTwo>
+        </gs:addNumbersRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
